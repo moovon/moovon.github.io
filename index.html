@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/style1.css" rel="stylesheet" type="text/css">
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Optional theme -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<title>SUNNY MAZUMDER</title>
+<script language="JavaScript">
+<!-- 
+var space = " ";
+var speed = "200";
+var pos = 0;
+var msg = "SUNNY MAZUMDER - SPIRITUAL CODER- ALGOMONK";
+function Scroll()
+{
+document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+pos++;
+if (pos > msg.length) pos = 0;
+window.setTimeout("Scroll()", speed);
+}
+Scroll();
+-->
+</script>
+
+
+<!-- 1sd Div layer starts-->
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-2 col-lg-2">
+<img name="myButton" id="myButton" src="images/profile.jpg" onclick="jkm()"> <!--onmouseover="src='images/profile2.jpg'" onmouseout="src='images/profile.jpg'"-->
+</div>
+
+<div id ="introdiv" class="col-md-2 col-lg-2" >
+<p>Sunny Mazumder <br>~aka moovon</p>
+</div>
+
+
+
+
+	<div id ="menudiv" class="col-md-8 col-lg-8">
+<!-- menu bar starting point-->
+
+	<ul id="menu-bar" class="nav">
+ <li class="active"><a href="#">Home</a></li>
+ <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">PROFILES</a>
+ <ul>
+    <li class="dropdown-header"><strong><em>social</em></strong></li>
+   <li><a id="fb" href="http://www.facebook.com/moovon" target="_blank" title="facebook"><img src="images/fb.png">&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></li>
+   <li><a href="https://twitter.com/moovonjkm" target="_blank" title="twitter"><img src="images/twitter.png">&nbsp;&nbsp;&nbsp;&nbsp;Twitter</a></li>
+   <li><a href="https://in.linkedin.com/pub/sunny-mazumder/7a/4a3/54a" target="_blank" title="linkedIn"><img src="images/linkedin.png">&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn</a></li>
+   <li><a href="http://www.quora.com/Sunny-Mazumder" target="_blank" title="quora"><img src="images/quora.png">&nbsp;&nbsp;&nbsp;&nbsp;Quora</a></li>
+ <li class="dropdown-header"><strong><em>coding</em></strong></li>
+   <li><a href="https://www.codechef.com/users/moovon" target="_blank" title="codechef"><img src="images/codechef.jpg">&nbsp;&nbsp;&nbsp;&nbsp;Codechef</a></li>
+   <li><a href="https://github.com/moovon/" target="_blank" title="github-all my codes"><img src="images/github.png">&nbsp;&nbsp;&nbsp;&nbsp;Github</a></li>
+   <li><a href="http://www.spoj.com/users/moovon/" target="_blank" title="spoj"><img src="images/spoj2.jpg">&nbsp;&nbsp;&nbsp;&nbsp;Spoj</a></li>
+   <li><a href="https://www.hackerearth.com/users/sunny10/" target="_blank" title="hackerearth"><img src="images/hackerearth.gif">&nbsp;&nbsp;&nbsp;&nbsp;Hackerearth</a></li>
+  </ul>
+
+
+ </li>
+ <li><a href="#">SKILLS</a>
+  <ul>
+   <li><a href="#"><img src="images/language.png">&nbsp;&nbsp;Languages</a></li>
+   <li><a href="#"><img src="images/framework.png">Framework</a></li>
+   <li><a href="#"><img src="images/tools.png">Tools</a></li>
+  </ul>
+ </li>
+ <li><a href="{{ url_for('projects') }}">PROJECTS</a></li>
+ <li><a href="#">BLOG</a></li>
+ <li><a  href="{{ url_for('aboutme') }}">About Me</a></li>
+ <li><a href="#">Contact Me</a></li>
+</ul>
+<!-- menu bar Ending point-->	
+	</div>
+
+
+</div>
+</div>
+<!-- 1st Div layer End-->
+
+<!-- 2nd Div layer starts-->
+<div class="container">
+<div class="row">
+
+
+<!-- profiles below the profile picture-->
+<div class="col-md-2 col-lg-2">
+	<p id="profiles">
+social profiles:<br>
+<a class="tooltips" id="fb" href="http://www.facebook.com/moovon" target="_blank"><img src="images/fb.png"><span>Facebook</span></a>
+<a class="tooltips" href="https://twitter.com/moovonjkm" target="_blank"><img src="images/twitter.png"><span>Twitter</span></a>
+<a class="tooltips" href="https://in.linkedin.com/pub/sunny-mazumder/7a/4a3/54a" target="_blank"><img src="images/linkedin.png"><span>LinkedIn</span></a>
+<a class="tooltips" href="http://www.quora.com/Sunny-Mazumder" target="_blank" ><img src="images/quora.png"><span>Quora</span></a><br>
+coding profiles:<br>
+<a class="tooltips" href="https://www.codechef.com/users/moovon" target="_blank"><img src="images/codechef.jpg"><span>Codechef</span></a>
+<a class="tooltips" href="https://github.com/moovon/" target="_blank" ><img src="images/github.png"><span>Github</span></a>
+<a class="tooltips" href="http://www.spoj.com/users/moovon/" target="_blank"><img src="images/spoj2.jpg"><span>Spoj</span></a><br>
+<a class="tooltips" href="https://www.hackerearth.com/users/sunny10/" target="_blank" title="hackerearth"><img src="images/hackerearth.gif"><span>Hackerearth</span></a></a><br>
+</p>
+</div>
+<div  class="col-md-8 col-lg-8" id="aboutme"></div>
+</div>
+</div>
+
+	
+<main class="cd-main-content">
+    <div class="cd-fixed-bg cd-bg-1">
+      <h1></h1>
+    </div> <!-- cd-fixed-bg -->
+
+    <div class="cd-scrolling-bg cd-color-2">
+      <div class="cd-container">
+        <p>
+          
+        </p>
+      </div> <!-- cd-container -->
+    </div> <!-- cd-scrolling-bg -->
+
+    <div class="cd-fixed-bg cd-bg-2">
+      <h2></h2>
+    </div> <!-- cd-fixed-bg -->
+
+    <div class="cd-scrolling-bg cd-color-3">
+      <div class="cd-container">
+        <p>
+         
+        </p>
+      </div> <!-- cd-container -->
+    </div> <!-- cd-scrolling-bg -->
+
+    <div class="cd-fixed-bg cd-bg-3">
+      <h2></h2>
+    </div> <!-- cd-fixed-bg -->
+
+    <div class="cd-scrolling-bg cd-color-1">
+      <div class="cd-container">
+        
+
+      </div> <!-- cd-container -->
+    </div> <!-- cd-scrolling-bg -->
+
+    <div class="cd-fixed-bg cd-bg-4">
+  
+    </div> <!-- cd-fixed-bg -->
+  </main>
+
+
+ <!-- cd-main-content -->
+<!-- 2nd Div layer Ends-->
+
+<!--javascript links-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</head>
+</html>
